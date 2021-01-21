@@ -14,6 +14,7 @@ function initializePage() {
 		$('#testjs').text("Please wait ...");
 		$('jumbotron p').addClass("active");
 	});
+	$("a.thumbnail").click(projectClick);
 
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
